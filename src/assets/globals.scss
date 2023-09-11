@@ -1,0 +1,50 @@
+
+.button {
+  padding: 12px 24px;
+  background: #222222;
+  color: #f2f2f2;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  &:active {
+    background: #282828;
+  }
+  &:hover {
+    background: #303030;
+  }
+}
+
+.toggle-button {
+  margin: 12px 0;
+}
+
+.form {
+  background: #282828;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: 16px;
+  input {
+    padding: 16px;
+    background: #222222;
+    border: none;
+    border-radius: 16px;
+    color: #ffffff;
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.counter {
+  padding: 24px;
+  color: #f2f2f2;
+  background: #282828;
+  border-radius: 16px;
+  &__buttons {
+    margin-top: 12px;
+    display: flex;
+    gap: 16px;
+  }
+}
